@@ -15,11 +15,11 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const db = mysql.createConnection({
-    host: "127.0.0.1",
-    port: "3306",
-    user: 'root',
-    password: 'Rohit@mysql02',
-    database: 'scl'
+  port :3306,
+  host:'bu06l2cwflcwlvgsefub-mysql.services.clever-cloud.com',
+  user: 'uy1ul2fmdf7wnf53',
+  password: 'b6mQ4aavm7MILXILOR4K', // Replace with your MySQL password
+  database: 'bu06l2cwflcwlvgsefub' // Replace with your database name
 });
 
 db.connect((err) => {
